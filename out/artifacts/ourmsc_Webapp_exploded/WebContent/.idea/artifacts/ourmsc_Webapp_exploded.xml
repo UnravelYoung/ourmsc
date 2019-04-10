@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ourmsc:Webapp exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ourmsc_Webapp_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ourmsc/web/Webapp" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ourmsc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit4" module-name="ourmsc" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ourmsc/web/Web" />
+    </root>
+  </artifact>
+</component>
